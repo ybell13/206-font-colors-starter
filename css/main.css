@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1em;
+}
+
+/** Phone **/
+@media (min-width: 320px) {
+  h1 {
+    background: #7b7d70;
+  }
+
+  h2 {
+    background: #4eafb8;
+  }
+
+  p{
+    background: #ff8641;
+  }
+}
+
+/** TABLET **/
+@media (min-width: 760px) {
+  h1 {
+    background: #02cbd2;
+  }
+
+  h2 {
+    background: #fcc02a;
+  }
+
+  p{
+    background: #7b8f8e;
+  }
+}
+
+/** DESKTOP **/
+@media (min-width: 1200px) {
+  h1 {
+    background: #6e4b61;
+  }
+
+  h2 {
+    background: #cabd61;
+  }
+
+  p{
+    background: #c19e74;
+  }
+}
